@@ -1,0 +1,16 @@
+.App {
+  padding: 2em;
+}
+
+input[type=text] {
+  padding: 1em;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-right: 1em;
+}
+
+input[type=submit] {
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 1px 1px rgba(0,0,0,.5);
+}

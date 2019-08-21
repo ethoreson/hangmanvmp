@@ -70,7 +70,7 @@ class App extends React.Component {
           <input type='text' value={this.state.currentGuess} onChange={this.saveGuess} />
           <input type="submit" value="GUESS" />
         </form>
-        <div>{displayProgress.join(' ')}</div>
+        <h2>{displayProgress.join(' ')}</h2>
         <div>Guesses Left: {guessesLeft}</div>
         <div>Incorrect Guesses: {wrongGuesses}</div>
         {winStatus}
